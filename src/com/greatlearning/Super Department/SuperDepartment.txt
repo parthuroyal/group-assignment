@@ -1,0 +1,27 @@
+public class SuperDepartment {
+    public String departmentName() {
+        return "Super Department";
+    }
+    
+    public String getTodaysWork() {
+        return "No Work as of now";
+    }
+    
+    public String getWorkDeadline() {
+        return "Nil";
+    }
+    
+    public String isTodayAHoliday() {
+        return "Today is not a holiday";
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        SuperDepartment superDepartment = new SuperDepartment();
+        
+        System.out.println(superDepartment.departmentName());
+        System.out.println(superDepartment.getTodaysWork());
+        System.out.println(superDepartment.getWorkDeadline());
+        System.out.println(superDepartment.isTodayAHoliday());
+    }
+}

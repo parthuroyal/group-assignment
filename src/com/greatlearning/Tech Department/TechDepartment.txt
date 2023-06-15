@@ -1,0 +1,27 @@
+public class TechDepartment {
+    public String departmentName() {
+        return "Tech Department";
+    }
+    
+    public String getTodaysWork() {
+        return "Complete coding of module 1";
+    }
+    
+    public String getWorkDeadline() {
+        return "Complete by EOD";
+    }
+    
+    public String getTechStackInformation() {
+        return "core Java";
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        TechDepartment techDepartment = new TechDepartment();
+        
+        System.out.println(techDepartment.departmentName());
+        System.out.println(techDepartment.getTodaysWork());
+        System.out.println(techDepartment.getWorkDeadline());
+        System.out.println(techDepartment.getTechStackInformation());
+    }
+}

@@ -1,0 +1,22 @@
+public class AdminDepartment {
+    public String departmentName() {
+        return "Admin Department";
+    }
+    
+    public String getTodaysWork() {
+        return "Complete your documents Submission";
+    }
+    
+    public String getWorkDeadline() {
+        return "Complete by EOD";
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        AdminDepartment adminDepartment = new AdminDepartment();
+        
+        System.out.println(adminDepartment.departmentName());
+        System.out.println(adminDepartment.getTodaysWork());
+        System.out.println(adminDepartment.getWorkDeadline());
+    }
+}

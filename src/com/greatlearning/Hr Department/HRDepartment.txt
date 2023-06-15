@@ -1,0 +1,27 @@
+public class HRDepartment {
+    public String departmentName() {
+        return "HR Department";
+    }
+    
+    public String getTodaysWork() {
+        return "Fill today's timesheet and mark your attendance";
+    }
+    
+    public String getWorkDeadline() {
+        return "Complete by EOD";
+    }
+    
+    public String doActivity() {
+        return "Team Lunch";
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        HRDepartment hrDepartment = new HRDepartment();
+        
+        System.out.println(hrDepartment.departmentName());
+        System.out.println(hrDepartment.getTodaysWork());
+        System.out.println(hrDepartment.getWorkDeadline());
+        System.out.println(hrDepartment.doActivity());
+    }
+}
